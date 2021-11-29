@@ -1,0 +1,87 @@
+body {
+	background-image: url("images/backgroun.jpg");
+	width : 100%;
+	height: 100%;
+	background-size: cover;
+	font-family: Arial;
+
+font-family : Arial; /* police de
+caracteres */
+background-color : #F5F5F5; /* pas
+tout a fait blanc */
+min-width : 520px; /* si l'affichage
+est moins large que 520px alors celui du
+corps sera de 520px */
+margin : 0; /* on enleve les marges
+par defaut */
+padding : 0; /* de meme */
+}
+#logo {
+float : left;
+margin : 1% 4%; /* marges adaptatives
+pour meilleure lisibilite */
+letter-spacing : 1.5px;
+}
+#logo h1 {
+color : #004C99;
+}
+#logo h2 {
+color : #0066CC;
+font-size : 1.5em;
+}
+#contenu
+{
+background-color : #FFF; /* font different */
+color : #22303D;
+padding : 5% 8%; /* plus agreable a lire et au visuel */
+clear : both; /* pas concerne par les float donc retour a la ligne */
+border-top : 2px solid #DBE3EB; /* faire ressortir */
+border-bottom : 2px solid #DBE3EB;
+}
+span {
+font-weight : bold; /* faire ressortir */
+letter-spacing: 1px; /* plus de lisibilite */
+color : #003366;
+}
+a { /* style des liens */
+text-decoration : none; /* pas de soulignement */
+color : #0066CC;
+}
+a:hover {
+font-weight : bold; /* pour ressortir quand survole */
+}
+p {
+text-align : justify; /* plus beau car bien aligne */
+}
+nav {
+text-align : right; /* tout doit etre a droite */
+}
+nav ul { /* liste dans la navigation */
+margin : 1% 3% 0 0;
+padding : 0; /* enleve l'indentation de defaut */
+float : right; /* colonne a droite par rapport au logo */
+}
+nav ul li {
+display : inline-block; /* les elements de la liste sont presentes en ligne
+mais se comportent comme un block */
+}
+nav li a {
+display : block; /* les liens se comportent comme des block individuels,
+cela evite le chevauchement en cas de petite largeur d'ecran */
+padding : 1em;
+margin : 1em 1.1em;
+text-decoration : none; /* enleve le soulignement habituel des liens */
+letter-spacing : 1.3px; /* pour plus de lisibilite */
+font-size : 0.9em;
+color : #F5F5F5;
+background-color : #003366;
+}
+nav li a:hover { /* style des boutons de liens qu'on survole */
+background-color : #0066CC;
+color : #F5F5F5;
+font-weight : normal; /* car on a regle le cas general sur bold */
+}
+#active { /* element ayant l'id "active" */
+background-color : #0066CC;
+color : #F5F5F5;
+}
